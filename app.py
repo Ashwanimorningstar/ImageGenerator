@@ -4,7 +4,7 @@ from PIL import Image
 import os
 import datetime
 client=InferenceClient(token=os.getenv("HF_TOKEN"))
-MODEL="stabilityai/stable-diffusion-xl-base-1.0"
+MODEL = "black-forest-labs/FLUX.1-schnell"
 st.set_page_config(page_title="My Image Generator")
 st.write("Describe your image")
 prompt = st.text_input("Enter image prompt")
