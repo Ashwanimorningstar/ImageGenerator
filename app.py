@@ -1,6 +1,7 @@
 import streamlit as st
 from huggingface_hub import InferenceClient
 from PIL import Image
+import os
 import datetime
 client=InferenceClient(token=os.genev(HF_TOKEN)
 MODEL="stabilityai/stable-diffusion-xl-base-1.0"
